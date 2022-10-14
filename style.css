@@ -1,9 +1,14 @@
 body {
 	background-color: #567E6A;
+	font-family: 'Bitter', serif;
 }
 
 #main-image {
-	width: 80%;
+	width:100%
+}
+
+#main-div {
+	width: 65%;
 	display: block;
 	margin-left:  auto;
 	margin-right: auto;
