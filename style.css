@@ -13,3 +13,12 @@ body {
 	margin-left:  auto;
 	margin-right: auto;
 }
+
+:root {
+	--dark_green: #1f3c35;
+	--med_green: #22523B;
+	--light_green: #567E6A;
+	--orange: #DC7D2F;
+	--yellow:#F0C548;
+	--light_yellow: #F1B95C;
+}
