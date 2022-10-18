@@ -1,5 +1,5 @@
 body {
-	background-color: #FFAE42;
+	background: linear-gradient(45deg, var(--orange) 0%, var(--dark-brown) 50%, var(--light_green) 100%);
 	font-family: 'Bitter', serif;
 }
 
@@ -12,19 +12,18 @@ h1 {
 }
 
 #main-div {
-	width: 70%;
+	width: 75%;
 	padding: 20px;
 	display: block;
 	margin-left:  auto;
 	margin-right: auto;
-	background-color: #567E6A;
+	background-color: var(--dark_green);
 }
 
 :root {
-	--dark_green: #1f3c35;
-	--med_green: #22523B;
-	--light_green: #567E6A;
-	--orange: #DC7D2F;
-	--yellow:#F0C548;
-	--light_yellow: #F1B95C;
+	--dark_green: #567E6A;
+	--light_green: #69B57A;
+	--orange: #E89D41;
+	--dark-brown:#826358;
+	--light-brown: #B59369;
 }
