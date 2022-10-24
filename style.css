@@ -1,6 +1,9 @@
 body {
-	background: linear-gradient(45deg, var(--orange) 0%, var(--dark-brown) 50%, var(--light_green) 100%);
-	font-family: 'Bitter', serif;
+	/* background-image: radial-gradient(circle at right, var(--orange) 0%, var(--dark-brown) 50% , var(--light_green) 100% );  */
+	background: linear-gradient(to top, var(--orange) 0%, var(--dark-brown) 50%, var(--light_green) 100%) ; 
+	background-repeat: no-repeat;
+	background-color: var(--orange);
+ 	font-family: 'Bitter', serif;
 }
 
 h1 {
@@ -8,16 +11,19 @@ h1 {
 }
 
 #main-image {
-	width:100%
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #main-div {
 	width: 75%;
+	height: 100%;
 	padding: 20px;
 	display: block;
 	margin-left:  auto;
 	margin-right: auto;
-	background-color: var(--dark_green);
+	/* background-color: var(--offwhite); */
 }
 
 :root {
@@ -26,4 +32,11 @@ h1 {
 	--orange: #E89D41;
 	--dark-brown:#826358;
 	--light-brown: #B59369;
+
+	/* test other colors */
+	--dg: #014029;
+	--mg: #025939;
+	--offwhite: #F2EADF;
+	--lo: #F29F80;
+	--o: #F25430; 
 }
