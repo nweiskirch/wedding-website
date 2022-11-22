@@ -4,10 +4,11 @@ body {
 	background-repeat: no-repeat;
 	background-color: var(--orange);
  	font-family: 'Bitter', serif;
+	font-size: 100%;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 200%;
 }
 
 #main-image {
@@ -39,4 +40,11 @@ h1 {
 	--offwhite: #F2EADF;
 	--lo: #F29F80;
 	--o: #F25430; 
+}
+
+@media screen and (min-width: 768px) {
+	#main-image {
+		width: 100%;
+	}
+	
 }
